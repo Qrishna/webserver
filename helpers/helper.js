@@ -1,14 +1,9 @@
-
-// async function executeAsyncTask(){
-// 	try{
-// 		const value1 = await function1()
-// 		const value2   = await(function2(value1))
-// 		return await function3(value1, value2)
-// 	}catch (error){
-// 		throw error
-// 	}
-// }
-
+/**
+ * Krishna Bhattarai
+ * UT Arlington
+ * July 2018
+ * A helper library to make ugly javascript not suck so much. Use this library and save yourself countless hours
+ */
 
 const system = require('child_process').execSync;
 const _      = require('underscore')
@@ -104,4 +99,3 @@ module.exports = function() {
         return _.without(object, item)
     }
 }
-

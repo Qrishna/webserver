@@ -1,7 +1,7 @@
 /**
  * Krishna Bhattarai
  * UT Arlington
- * July, 2018
+ * July 2018
  * A simple web server using express
  */
 
@@ -16,7 +16,7 @@
  * DELETE   = DELETE
  */
 
-require("./helpers/helpers.js")()
+require("./helpers/helper.js")()
 
 
 const express =  require('express')
@@ -171,10 +171,8 @@ app.put("/api/devices/:id", function(request, response){
  * Request: DELETE /api/devices/3
 
  * Response
- * Response should be either successful deletion confirmation or failure message
-    {id: 3, action: 'DELETE', status: 'success'}
-    {id: 4, action: 'DELETE', status: 'failure'}
-
+ * Response could be either successful deletion confirmation or failure message but to follow standard convention
+ * one could simply return the deleted object as well
  */
 
 app.delete("/api/devices/:id", function(request, response){
