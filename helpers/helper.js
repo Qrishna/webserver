@@ -5,11 +5,14 @@
  * A helper library to make ugly javascript not suck so much. Use this library and save yourself countless hours
  */
 
-const system = require('child_process').execSync;
+const system = require('child_process').execSync
 const _      = require('underscore')
 
 module.exports = function() {
     let self = this
+
+    self._ = _
+    self.system = system
 
     self.print = function(...message){
         console.log(...message)
@@ -77,7 +80,7 @@ module.exports = function() {
     self.copy = function (object){
         return Object.assign({}, object)
     }
-    self.system = function (command){
+    self.os = function (command){
         return system(command, {"encoding": 'utf8'})
     }
     self.empty = function (object){
