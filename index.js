@@ -16,8 +16,7 @@
  * DELETE   = DELETE
  */
 
-require("./helpers/helper.js")()
-
+require("pythonicnodejs")()
 
 const express =  require('express')
 const app = express()

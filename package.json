@@ -1,24 +1,30 @@
 {
   "name": "webserver",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A web server written with express",
-  "main": "server.js",
+  "main": "index.js",
   "dependencies": {
     "express": "^4.16.3",
-    "nodemon": "^1.17.5",
-    "underscore": "^1.9.1"
+    "nodemon": "^1.18.2",
+    "pythonicnodejs": "^7.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
-  "keywords": [
-    "webserver"
-  ],
-  "author": "Krishna Bhattarai",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Qrishna/webserver.git"
+    "url": "git+https://github.com/Qrishna/webserver.git"
   },
-  "license": "UT Arlington"
+  "keywords": [
+    "webserver",
+    "pythonic webserver",
+    "pythonic nodejs"
+  ],
+  "author": "Krishna Bhattarai <krishnamani.bhattarai@mavs.uta.edu> (https://omega.uta.edu/~kxb3292)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Qrishna/webserver/issues"
+  },
+  "homepage": "https://github.com/Qrishna/webserver#readme"
 }
