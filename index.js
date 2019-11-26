@@ -1,6 +1,5 @@
 /**
  * Krishna Bhattarai
- * UT Arlington
  * July 2018
  * A simple web server using express
  */
@@ -16,7 +15,7 @@
  * DELETE   = DELETE
  */
 
-require("pythonicnodejs")()
+require("pythonicjs")()
 
 const express =  require('express')
 const app = express()

@@ -6,7 +6,7 @@
   "dependencies": {
     "express": "^4.16.3",
     "nodemon": "^1.18.2",
-    "pythonicnodejs": "^7.0.0"
+    "pythonicjs": "^7.0.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -21,7 +21,7 @@
     "pythonic webserver",
     "pythonic nodejs"
   ],
-  "author": "Krishna Bhattarai <krishnamani.bhattarai@mavs.uta.edu> (https://omega.uta.edu/~kxb3292)",
+  "author": "Krishna Bhattarai <krishnamani.bhattarai@mavs.uta.edu>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Qrishna/webserver/issues"
